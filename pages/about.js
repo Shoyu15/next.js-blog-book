@@ -9,11 +9,19 @@ import {
 import Hero from "components/hero";
 import Image from "next/legacy/image";
 import eyecatch from "images/about.jpg";
+import Meta from "@/components/meta";
 
 export default function About() {
   return (
     <>
       <Container>
+        <Meta
+          pageTitle="アバウト"
+          pageDesc="アバウトページのディスクリプション"
+          pageImg={eyecatch.src}
+          pageImgW={eyecatch.width}
+          pageImgH={eyecatch.height}
+        />
         <Hero title="About" subtitle="アバウトページだよー" />
         <figure>
           <Image
