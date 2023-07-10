@@ -10,7 +10,7 @@ export default function PostCategories({ categories }) {
         <FontAwesomeIcon icon={faFolderOpen} />
         <span className="sr-only">Categories</span>
       </h3>
-      <ul className={styles.liost}>
+      <ul className={styles.list}>
         {categories.map(({ name, slug }) => (
           <li key={slug}>
             <Link href={`/blog/category/${slug}`}>{name}</Link>

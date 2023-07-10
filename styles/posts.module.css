@@ -6,13 +6,13 @@
   margin-bottom: var(--space-lg);
 }
 
-.post h2 {
+.gridContainer h2 {
   margin-top: 0.5em;
   font-size: var(--small-heading3);
   font-weight: 400;
 }
 
-.post figure {
+.gridContainer figure {
   position: relative;
   aspect-ratio: 16/9;
 }
