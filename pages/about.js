@@ -10,6 +10,7 @@ import Hero from "components/hero";
 import Image from "next/legacy/image";
 import eyecatch from "images/about.jpg";
 import Meta from "@/components/meta";
+import Accordion from "@/components/accordion";
 
 export default function About() {
   return (
@@ -50,6 +51,23 @@ export default function About() {
               <p>
                 今までと違うものを作ることで愛着が湧いてきます。そこで興味を持ったことは小さなことでもいいから取り入れて、良いものを作れるようにしています。小さなヒントから新しいものを生み出すようなモノづくりは、これからも続けていきたいです。
               </p>
+
+              <h2>FAQ</h2>
+              <Accordion heading="プログラミングのポイントについて">
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </Accordion>
+              <Accordion heading="プログラミングのポイントについて2">
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </Accordion>
+              <Accordion heading="プログラミングのポイントについて3">
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </Accordion>
             </PostBody>
           </TwoColumnMain>
           <TwoColumnSidebar>
